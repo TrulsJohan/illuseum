@@ -1,0 +1,36 @@
+:root {
+    --primary: #131313;
+    --secondary: #F3F3F3;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) tablet */
+@media (min-width: 768px) {
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+}
+
+/* xLarge (xl) desktop */
+@media (min-width: 1280px) {
+}
+
+/* xxLarge (xxl) */
+@media (min-width: 1536px) {
+}
+
