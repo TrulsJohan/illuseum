@@ -14,6 +14,195 @@ body {
     margin: 0;
 }
 
+header {
+    width: 100%;
+}
+
+nav {
+    height: 96px;
+    width: 100%;
+    background-color: var(--primary);
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 40px 1rem 40px;
+}
+
+.nav-btn-wh {
+    width: 200px;
+    height: 56px;
+}
+
+.btn-background {
+    border-radius: 50px;
+    background-color: var(--secondary);
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.nav-logo-container {
+    position: relative;
+}
+
+.nav-logo {
+    position: absolute;
+    z-index: 10;
+}
+
+.nav-menu-container {
+    position: relative;
+}
+
+.nav-menu-wh {
+    width: 56px;
+    height: 56px;
+}
+
+.menu-img {
+    position: absolute;
+    border-radius: 50px;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.menu-img:hover {
+    border: 3px solid var(--secondary);
+}
+
+.menu-background {
+    background-color: var(--secondary);
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    left: -48px;
+}
+
+header ul {
+    display: none;
+}
+
+.hero-banner {
+    position: relative;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 304px;
+    position: absolute;
+    z-index: 10;
+}
+
+.hero-banner p {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.perspective-wh {
+    width: 312px;
+}
+
+.exhibitions-wh {
+    width: 280px;
+}
+
+.events-wh {
+    width: 174px;
+}
+
+.about-wh {
+    width: 224px;
+}
+
+.tickets-wh {
+    width: 186px;
+}
+
+.img-text-relative {
+    position: relative;
+    height: 80px;
+}
+
+.img-text-container {
+    height: 80px;
+}
+
+.img-text {
+    color: var(--secondary);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+}
+
+.img-text-bg {
+    color: var(--primary);
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    z-index: 20;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    padding: 56px 40px 0 40px;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-one {
+    width: 350px;
+    padding-top: 56px;
+}
+
+footer ul {
+    list-style: none;
+    color: var(--secondary);
+    padding: 0;
+}
+
+.footer-headers {
+    margin: 96px 0 0 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+footer li {
+    padding-bottom: 2rem;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+.line-two {
+    width: 350px;
+}
+
+.footer-contact {
+    margin: 2rem 0 0 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-info {
+    margin: 2rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 350px;
+}
+
 /* Small (sm) */
 @media (min-width: 640px) {
 }
@@ -28,9 +217,74 @@ body {
 
 /* xLarge (xl) desktop */
 @media (min-width: 1280px) {
+    nav {
+        padding: 1rem 62px 1rem 70px;
+    }
+
+    .nav-menu-container {
+        display: none;
+    }
+
+    header ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-containers {
+        margin-left: 24px;
+        position: relative;
+    }
+
+    .nav-btn {
+        background-color: var(--primary);
+        color: var(--secondary);
+        border-radius: 50px;
+        border: none;
+        font-weight: 700;
+        font-size: 24px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .footer-reverse-div {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 56px;
+    }
+
+    .footer-headers {
+        margin-top: 0;
+        padding-left: 70px;
+    }
+
+    .footer-contact {
+        padding: 64px 0 0 0;
+    }
+
+    footer ul {
+        width: 570px;
+    }
+
+    .line-one {
+        width: 1px;
+        height: 480px;
+    }
+
+    .footer-info-container {
+        width: 1140px;
+    }
+
+    .footer-info {
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* xxLarge (xxl) */
 @media (min-width: 1536px) {
 }
+
 
