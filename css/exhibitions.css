@@ -5,6 +5,132 @@
     --black: #000000;
 }
 
+.exhibitions-section-one {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+    position: relative;
+    height: 224px;
+    width: 100%;
+}
+
+.exhibition-img-containers {
+    position: absolute;
+}
+
+.img-one-container {
+    z-index: 10;
+}
+
+.img-two-container {
+    z-index: 20;
+    top: 133px;
+    left: 82px;
+}
+
+.img-three-container {
+    z-index: 30;
+    top: 183px;
+    right: 82px;
+}
+
+.exhibitions-img-shadow {
+    height: 88px;
+    width: 350px;
+    position: absolute;
+    z-index: 10;
+    top: 320px;
+}
+
+.exhibition-img-one-container {
+    position: relative;
+    width: 145px;
+    height: 145px;
+}
+
+.img-one-wh {
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+
+.exhibitions-img-one {
+    z-index: 20;
+}
+
+.exhibition-img-one-bg {
+    background-color: var(--secondary);
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+}
+
+.exhibition-img-two-container {
+    position: relative;
+    width: 120px;
+    height: 172px;
+}
+
+.img-two-wh {
+    width: 120px;
+    height: 172px;
+    position: absolute;
+}
+
+.exhibitions-img-two {
+    z-index: 30;
+}
+
+.exhibition-img-two-bg-one {
+    background-color: var(--secondary);
+    top: 8px;
+    right: 8px;
+    z-index: 20;
+}
+
+.exhibition-img-two-bg-two {
+    background-color: var(--primary);
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+.exhibition-img-three-container {
+    position: relative;
+    width: 160px;
+    height: 158px;
+}
+
+.img-three-wh {
+    width: 160px;
+    height: 158px;
+    position: absolute;
+}
+
+.exhibitions-img-three {
+    z-index: 30;
+}
+
+.exhibition-img-three-bg-one {
+    background-color: var(--secondary);
+    top: 8px;
+    right: 8px;
+    z-index: 20;
+}
+
+.exhibition-img-three-bg-two {
+    background-color: var(--primary);
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+.exhibitions-section-two {
+    padding: 220px 40px 40px 40px;
+}
+
 /* Small (sm) */
 @media (min-width: 640px) {
 }
