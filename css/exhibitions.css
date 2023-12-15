@@ -11,9 +11,15 @@
     flex-direction: column;
     align-items: center;
     padding-top: 56px;
-    position: relative;
+    /*position: relative;*/
     height: 224px;
     width: 100%;
+}
+
+.exhibition-container {
+    position: relative;
+    width: 145px;
+    height: 145px;
 }
 
 .exhibition-img-containers {
@@ -26,14 +32,14 @@
 
 .img-two-container {
     z-index: 20;
-    top: 133px;
-    left: 82px;
+    top: 76px;
+    right: 55px;
 }
 
 .img-three-container {
     z-index: 30;
-    top: 183px;
-    right: 82px;
+    top: 126px;
+    left: 50px;
 }
 
 .exhibitions-img-shadow {
@@ -41,7 +47,8 @@
     width: 350px;
     position: absolute;
     z-index: 10;
-    top: 320px;
+    top: 260px;
+    left: -97px;
 }
 
 .exhibition-img-one-container {
@@ -58,6 +65,10 @@
 
 .exhibitions-img-one {
     z-index: 20;
+}
+
+.exhibition-img-desktop {
+    display: none;
 }
 
 .exhibition-img-one-bg {
@@ -145,6 +156,74 @@
 
 /* xLarge (xl) desktop */
 @media (min-width: 1280px) {
+    .exhibitions-section-one {
+        height: 656px;
+        padding: 120px 70px 0 70px;
+    }
+
+    .exhibitions-section-two {
+        padding: 796px 40px 40px 40px;
+    }
+
+    .exhibition-container {
+        width: 540px;
+        height: 540px;
+    }
+
+    .exhibitions-img-shadow {
+        height: 320px;
+        width: 1300px;
+        top: 950px;
+        left: -361px;
+    }
+
+    .img-two-container {
+        top: 287px;
+        right: 206px;
+    }
+
+    .img-three-container {
+        top: 477px;
+        left: 187px;
+    }
+
+    .exhibition-img-one-container {
+        width: 540px;
+        height: 540px;
+    }
+
+    .img-one-wh {
+        width: 540px;
+        height: 540px;
+    }
+
+    .exhibition-img-mobile {
+        display: none;
+    }
+
+    .exhibition-img-desktop {
+        display: block;
+    }
+
+    .exhibition-img-two-container {
+        width: 449px;
+        height: 646px;
+    }
+
+    .img-two-wh {
+        width: 449px;
+        height: 646px;
+    }
+
+    .exhibition-img-three-container {
+        width: 581px;
+        height: 581px;
+    }
+
+    .img-three-wh {
+        width: 581px;
+        height: 581px;
+    }
 }
 
 /* xxLarge (xxl) */
