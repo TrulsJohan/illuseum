@@ -224,6 +224,51 @@ footer li {
     width: 350px;
 }
 
+.btn-containers-main {
+    position: relative;
+    margin-top: 24px;
+    width: 208px;
+}
+
+.btn-wh {
+    width: 200px;
+    height: 56px;
+    border-radius: 50px;
+}
+
+.main-btn {
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.btn-bg {
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.main-btn-b {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.btn-background-b {
+    background-color: var(--secondary);
+}
+
+.main-btn-w {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+.btn-background-w {
+    background-color: var(--primary);
+}
+
 /* Small (sm) */
 @media (min-width: 640px) {
 }
@@ -269,6 +314,46 @@ footer li {
         z-index: 10;
     }
 
+    .hero-banner {
+        height: 512px;
+    }
+
+    .hero-img {
+        height: 512px;
+    }
+
+    .img-text-relative {
+        height: 152px;
+    }
+
+    .img-text-container {
+        height: 152px;
+    }
+
+    .hero-banner p {
+        font-size: 96px;
+    }
+
+    .perspective-wh {
+        width: 584px;
+    }
+
+    .exhibitions-wh {
+        width: 550px;
+    }
+
+    .events-wh {
+        width: 337px;
+    }
+
+    .about-wh {
+        width: 437px;
+    }
+
+    .tickets-wh {
+        width: 363px;
+    }
+
     .footer-reverse-div {
         display: flex;
         flex-direction: row-reverse;
@@ -301,6 +386,27 @@ footer li {
         width: 1140px;
         display: flex;
         justify-content: space-between;
+    }
+
+    .paragraphs-b {
+        font-size: 32px;
+    }
+
+    .paragraphs-w {
+        font-size: 32px;
+    }
+
+    .btn-containers-main {
+        width: 408px;
+    }
+
+    .btn-wh {
+        width: 400px;
+        height: 72px;
+    }
+
+    .main-btn {
+        font-size: 32px;
     }
 }
 
