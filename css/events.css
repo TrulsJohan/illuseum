@@ -119,7 +119,7 @@
     }
 
     .events-section-two {
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         margin: 0 120px 0 120px;
@@ -168,7 +168,7 @@
     }
 
     .events-section-two {
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         margin: 0 120px 0 120px;
