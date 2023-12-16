@@ -106,7 +106,7 @@
         height: 800px;
         flex-direction: row-reverse;
         justify-content: space-between;
-        padding: 80px 70px 0 70px;
+        padding: 80px 70px 80px 70px;
     }
 
     .section-two-container-one {
