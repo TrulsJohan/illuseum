@@ -11,7 +11,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 56px;
-    /*position: relative;*/
     height: 224px;
     width: 100%;
 }
@@ -30,16 +29,28 @@
     z-index: 10;
 }
 
+.img-one-container:hover {
+    z-index: 40;
+}
+
 .img-two-container {
     z-index: 20;
     top: 76px;
     right: 55px;
 }
 
+.img-two-container:hover {
+    z-index: 40;
+}
+
 .img-three-container {
     z-index: 30;
     top: 126px;
     left: 50px;
+}
+
+.img-three-container:hover {
+    z-index: 40;
 }
 
 .exhibitions-img-shadow {

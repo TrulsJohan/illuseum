@@ -27,6 +27,10 @@ nav {
     padding: 1rem 40px 1rem 40px;
 }
 
+.nav-btn:hover {
+    border: 3px solid var(--secondary);
+}
+
 .nav-btn-wh {
     width: 200px;
     height: 56px;
@@ -256,6 +260,10 @@ footer li {
     color: var(--secondary);
 }
 
+.main-btn-b:hover {
+    border: 3px solid var(--secondary);
+}
+
 .btn-background-b {
     background-color: var(--secondary);
 }
@@ -263,6 +271,10 @@ footer li {
 .main-btn-w {
     background-color: var(--white);
     color: var(--primary);
+}
+
+.main-btn-w:hover {
+    border: 3px solid var(--primary);
 }
 
 .btn-background-w {
