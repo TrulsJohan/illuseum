@@ -31,6 +31,9 @@
 
 .img-one-container:hover {
     z-index: 40;
+    animation-name: exhibitions;
+    animation-duration: 2s;
+    animation-fill-mode: both;
 }
 
 .img-two-container {
@@ -41,6 +44,9 @@
 
 .img-two-container:hover {
     z-index: 40;
+    animation-name: exhibitions;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .img-three-container {
@@ -51,6 +57,14 @@
 
 .img-three-container:hover {
     z-index: 40;
+    animation-name: exhibitions;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes exhibitions {
+    from {transform: translateY(20px)}
+    to {transform: translateY(-20px)}
 }
 
 .exhibitions-img-shadow {
