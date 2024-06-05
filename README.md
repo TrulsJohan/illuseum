@@ -47,6 +47,8 @@ challenges your senses, perspectives and defies your expectations.
    
 - ### tickets
   - get your tickets for the events or regular tickets for visiting.
+
+<img width="1007" alt="Screenshot 2024-06-06 at 00 19 45" src="https://github.com/TrulsJohan/illuseum/assets/107504447/64c5cf70-c549-4af4-996b-eb4f1608bf42">
   
 
 ## Technical spesification
