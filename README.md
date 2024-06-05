@@ -1,3 +1,21 @@
+# ILLUSEUM
+
+###Illuseum was a individual project given to us as Semester Project 1, during our Frontend Devolpment lectures at Noroff School Of Technology And Digital Media.
+###Illuseum is deployed [here](https://illuseum.netlify.app/).
+
+##Table of contents
+
+- About
+- Features
+- Technical Spesifications
+
+##About
+
+Semester Project 1, evolved around making a interactive website for a museum targeting children around primory and middle school.
+The projects objective was to reflect the skills and learnsett given during the frist semester at Noroff, as well as the student´s creativity,
+design prinicples, technical knowladge and project management and devolpment with HTML and CSS.
+
+
 illuseum: Museum of illusions  
 Welcome to illuseum, where reality meets perception!  
 Immerse yourself in a world of wonder and intrigue at our one of a kind museum of illusions. 
