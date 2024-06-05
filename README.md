@@ -58,9 +58,11 @@ challenges your senses, perspectives and defies your expectations.
 - Figma
 - Git
 
+
 ## Deployment
 
 The webiste is deployed with netlify [here](https://illuseum.netlify.app/).
+
 
 ## Developers
 
