@@ -17,10 +17,10 @@ Illuseum is deployed [here](https://illuseum.netlify.app/).
 
 ### Semester Project 1
 
-Semester Project 1, evolved around making a interactive website for a museum
+Semester Project 1, evolved around making a responsive design website for a museum
 targeting children around primory and middle school. The projects objective was to reflect
-the skills and learnsett given during the frist semester at Noroff, as well as the student´s creativity,
-design prinicples, technical knowladge and project management and devolpment with HTML and CSS.
+the skills and learnsett given to us during the frist semester at Noroff, as well as the student´s creativity,
+design prinicples, technical knowladge, project management and devolpment with HTML and CSS.
 
 ### Illuseum
 
@@ -59,6 +59,11 @@ The website is responsive on mobile, tablet and desktop.
 - CSS
 - Figma
 - Git
+
+
+## Acknowledgements
+
+During this project, my goal was to challenge myself with a more complex design whit more layers. The reason for this was that I struggled a bit with it during our last project. It was also the first project where I whanted the design to reflect what Illuseum is, playing around with shapes and layers. This project my way into aprecciating and incorporating design to frontend development.
 
 
 ## Deployment
